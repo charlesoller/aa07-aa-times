@@ -1,1 +1,34 @@
-/* Your code here */
+.interests-bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    gap: 0 10px;
+}
+
+.interests-bar__image {
+    align-self: center;
+    width: 80%;
+    height: auto;
+}
+
+.interests-bar__stocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.interests-bar__stock-price {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.interests-bar__price {
+    font-weight: bold;
+    color: green;
+}
+
+.temperature {
+    font-weight: bold;
+    margin: auto 0;
+    font-size: 1.5rem;
+}

@@ -4,18 +4,21 @@
     grid-template-columns: repeat(3, 1fr);
     padding-top: 14px;
 }
+
 .masthead__menu-and-search {
     grid-column: 1;
     display: flex;
     align-items: center;
     padding-left: 20px;
 }
+
 .masthead__actions {
     grid-column: 3;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .masthead__technologies {
     grid-column: 2;
     text-transform: uppercase;
@@ -27,6 +30,10 @@
     border-top: 1px solid #e2e2e2;
     border-left: 1px solid #e2e2e2;
     border-right: 1px solid #e2e2e2;
+    background-color: white;
+    position: relative;
+    top: 1px;
+    padding: 5px;
 }
 
 .masthead__date {
@@ -47,23 +54,28 @@
     justify-content: flex-end;
 }
 
-.masthead__date, .masthead__paper {
+.masthead__date,
+.masthead__paper {
     font-size: 11px;
     display: flex;
     align-items: flex-end;
 }
 
-.masthead__date, .masthead__paper, .masthead__logo {
+.masthead__date,
+.masthead__paper,
+.masthead__logo {
     border-bottom: 1px solid #e2e2e2;
     border-top: 1px solid #e2e2e2;
     padding-bottom: 11px;
 }
 
-.menu__icon, .search__icon {
+.menu__icon,
+.search__icon {
     font-size: 11px;
     padding: 7px 9px;
 }
 
-.menu__icon:hover, .search__icon:hover {
+.menu__icon:hover,
+.search__icon:hover {
     background: #f7f7f5;
 }

@@ -1,13 +1,15 @@
 <!-- Your code here -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Academy Times</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"/>
-    <link rel="stylesheet" href="./stylesheets/main-styles.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" />
+    <link rel="stylesheet" href="./stylesheets/main-styles.css" />
 </head>
+
 <body>
     <header>
         <div class="masthead">
@@ -36,16 +38,81 @@
                 <p>Thursday, November 30, 2023</p>
             </div>
             <div class="masthead__logo">
-                <img src="/images/AA_Times_Logo.png" alt="AA Times Logo"/>
+                <img src="./images/AA_Times_Logo.png" alt="AA Times Logo" />
             </div>
             <div class="masthead__paper">
                 <i class="far fa-newspaper"></i> <span>Today's Paper.</span>
             </div>
         </div>
+        <nav>
+            <ul class="masthead__links">
+                <li><a href="/world">World</a></li>
+                <li><a href="/swe">SWE Online</a></li>
+                <li><a href="/about">San Francisco</a></li>
+                <li><a href="/contact">New York</a></li>
+                <li><a href="/contact">Jumpstart</a></li>
+                <li><a href="/contact">Online</a></li>
+                <li><a href="/contact">Marketing</a></li>
+                <li><a href="/contact">Sales</a></li>
+                <li><a href="/contact">TalentMatch</a></li>
+                <li><a href="/contact">Alumni</a></li>
+                <li><a href="/contact">ALL</a></li>
+            </ul>
+            <div class="interests-bar">
+                <img src="images/dog.png" class="interests-bar__image" />
+                <div>
+                    <h3>Dog Programmers</h3>
+                    <p>Dogs are learning to code at an incredible pace</p>
+                </div>
+                <img src="images/cat.png" class="interests-bar__image" />
+                <div>
+                    <h3>Cats in Coding</h3>
+                    <p>Cats are on the rise as the number one example for coding demos</p>
+                </div>
+                <img src="images/plug.png" class="interests-bar__image" />
+                <div>
+                    <h3>Plugging Stuff In</h3>
+                    <p>Good or Bad? Find out now</p>
+                </div>
+                <div class="interests-bar__stocks">
+                    <p class="interests-bar__stock-price">
+                        <span>AAO</span>
+                        <span class="interests-bar__price">+100%</span>
+                    </p>
+                    <p class="interests-bar__stock-price">
+                        <span>SWE</span>
+                        <span class="interests-bar__price">+110%</span>
+                    </p>
+                    <p class="interests-bar__stock-price">
+                        <span>CAT</span>
+                        <span class="interests-bar__price">+111%</span>
+                    </p>
+                </div>
+                <img src="images/sun-icon.png" class="interests-bar__image" />
+                <h2 class="temperature">77 F</h2>
+            </div>
+        </nav>
     </header>
     <main>
-
+        <div>
+            <h1>How App Academy Students Change Their Lives</h1>
+            <article>
+                <h3>App Academy Instructors on React and Redux</h3>
+                <p>By App Academy Instructional Team</p>
+                <ul>
+                    <li>It helps you write applications that behave consistently, run in different environments (client,
+                        server, and native), and are easy to test. On top of that, it provides a great developer
+                        experience, such as live code editing combined with a time traveling debugger.</li>
+                    <li>The whole state of your app is stored in an object tree inside a single store.
+                        The only way to change the state tree is to emit an action, an object describing what happened.
+                        To specify how the actions transform the state tree, you write pure reducers.
+                    </li>
+                </ul>
+                <a>1738 Comments</a>
+            </article>
+        </div>
     </main>
     <footer></footer>
 </body>
+
 </html>
